@@ -12,7 +12,9 @@
 </head>
 <style>
     body {
-        background-color: lightcyan;
+        font-style: italic;
+        background-image: url("https://s3.cloud.cmctelecom.vn/tinhte1/2015/01/2727114_081-top-100-photos-2014-1.jpg");
+
     }
     .table {
         background-color: white;

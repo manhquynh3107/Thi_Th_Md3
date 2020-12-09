@@ -246,19 +246,6 @@
       <change afterPath="$PROJECT_DIR$/../Case_MD3_Quynh/tests/Feature/ExampleTest.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Case_MD3_Quynh/tests/TestCase.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Case_MD3_Quynh/tests/Unit/ExampleTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Thi_TH_MD3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/commandlinetools/Laravel_12_9_20__9_54_AM.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/commandlinetools/schemas/frameworkDescriptionVersion1.1.4.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/AgencyController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/SearchController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/add.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/list.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/search.blade.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../phpMyadmin/CONTRIBUTING.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../phpMyadmin/ChangeLog" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../phpMyadmin/LICENSE" afterDir="false" />
@@ -3458,6 +3445,15 @@
       <change afterPath="$PROJECT_DIR$/../phpMyadmin/view_create.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../phpMyadmin/view_operations.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../phpMyadmin/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AgencyController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AgencyController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SearchController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SearchController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/list.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/search.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/search.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -3469,7 +3465,7 @@
     <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -3622,7 +3618,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607482399299</updated>
-      <workItem from="1607482400692" duration="4309000" />
+      <workItem from="1607482400692" duration="5837000" />
     </task>
     <servers />
   </component>
@@ -3641,6 +3637,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="437" y="180" key="NewPhpClassDialog" timestamp="1607488088402">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="437" y="180" key="NewPhpClassDialog/0.0.1440.900@0.0.1440.900" timestamp="1607488088402" />
     <state x="229" y="86" key="SettingsEditor" timestamp="1607485606113">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

@@ -31,7 +31,7 @@ class AgencyController extends Controller
      */
     public function create()
     {
-        return view('add');
+        return view('add')->with('success', '');
     }
 
     /**
@@ -45,7 +45,7 @@ class AgencyController extends Controller
         $agency = new Agency();
         $agency->fill($request->all());
         $agency->save();
-        return redirect()->route('agency.index');
+        return redirect()->route('agency.index')->with('success','Add Success');
     }
 
     /**
@@ -69,7 +69,7 @@ class AgencyController extends Controller
     {
 
         $agency = Agency::findOrFail($id);
-        return view('edit', compact('agency'));
+        return view('edit', compact('agency'))->with('success', 'Edit Success');
     }
 
     /**
@@ -84,7 +84,7 @@ class AgencyController extends Controller
         $agency = Agency::findOrFail($id);
         $agency->fill($request->all());
         $agency->save();
-        return redirect()->route('agency.index');
+        return redirect()->route('agency.index')->with('success', 'Edit Success');
     }
 
     /**
@@ -97,6 +97,6 @@ class AgencyController extends Controller
     {
         $agency = Agency::findOrFail($id);
         $agency->delete();
-        return redirect()->route('agency.index');
+        return redirect()->route('agency.index')->with('success','Delete Success');
     }
 }

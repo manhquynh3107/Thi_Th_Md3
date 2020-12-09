@@ -28,4 +28,5 @@ Route::prefix('/')->group(function (){
     Route::get('/{id}/destroy', [AgencyController::class, 'destroy'])->name('agency.destroy');
     Route::get('/searchInfo', [SearchController::class, 'search']);
     Route::get('/result', [SearchController::class, 'search'])->name('agency.resultSearch');
+    Route::get('list',[AgencyController::class, 'list'])->name('agency.list');
 });

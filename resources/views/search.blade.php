@@ -12,7 +12,9 @@
 </head>
 <style>
     body {
-        background-color: lightcyan;
+        font-style: italic;
+        background-image: url("https://s3.cloud.cmctelecom.vn/tinhte1/2015/01/2727114_081-top-100-photos-2014-1.jpg");
+
     }
     .table {
         background-color: white;
@@ -20,7 +22,7 @@
     }
 </style>
 <body>
-<h1 align="center">Kết quả tìm kiếm</h1>
+<h1 align="center">Result for Search</h1>
 <a class="btn btn-info" href="{{route('agency.index')}}">Trở về</a>
 <hr>
 <table id="td" align="center" class="table" style="width: 1400px">

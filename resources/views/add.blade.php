@@ -21,7 +21,18 @@
     }
 </style>
 <body>
-<form style="margin-top: 50px" action="{{route('agency.store')}}" method="post">
+<form style="margin-top: 50px;border-radius: 5px;border:aquamarine " action="{{route('agency.store')}}" method="post">
+    @if (session('error'))
+        <div class="alert alert-warning" role="alert">
+            {{ session('error') }}
+        </div>
+    @endif
+
+    @if (session('success'))
+        <div class="alert alert-success" role="alert">
+            {{ session('success') }}
+        </div>
+    @endif
     @csrf
     <table align="center" class="table" style="width: 700px; border: 1px solid black">
         <thead class="thead-dark">
@@ -31,7 +42,7 @@
         <tr>
             <td>
                 <label>Id Agency</label><br>
-                <input type="number" name="id" required>
+                <input type="number" name="id" required >
             </td>
             <td rowspan="2">
                 <label>Address</label><br>
